@@ -1,0 +1,140 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  /* Main container centering */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Center container styling */
+  .center-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  /* App heading styling */
+  .app-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4A90E2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Input container styling */
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Input box styling */
+  .input-box-todo {
+    width: 75%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-box-todo:focus {
+    border-color: #4A90E2;
+    box-shadow: 0px 0px 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Add button styling */
+  .add-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(74, 144, 226, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    background-color: #357ABD;
+  }
+  
+  .add-btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* List container styling */
+  .list-container {
+    margin-top: 20px;
+  }
+  
+  /* List item styling */
+  .list-item {
+    background-color: #FAFAFA;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-item:hover {
+    background-color: #F0F0F0;
+  }
+  
+  /* Icons container styling */
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icons styling */
+  .icons i {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .icons i:hover {
+    color: #4A90E2;
+    transform: scale(1.2);
+  }
+  
+  .icon-delete:hover {
+    color: #E74C3C;
+  }
+  
+  .icon-edit:hover {
+    color: #F39C12;
+  }
+  
